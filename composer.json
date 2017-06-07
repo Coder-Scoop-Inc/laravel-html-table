@@ -1,0 +1,32 @@
+{
+    "name": "coderscoop/laravel-html-table",
+    "description": "Fast table builder for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samy Otero Glez",
+            "email": "otero.glez.samy@gmail.com"
+        },
+        {
+            "name": "Oscar J Delgado",
+            "email": "oscar-email@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "behat/behat": "^3.3",
+        "behat/mink": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coderscoop\\HtmlTable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coderscoop\\HtmlTable\\Tests\\": "test/"
+        }
+    }
+}
