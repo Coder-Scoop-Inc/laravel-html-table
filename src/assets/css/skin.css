@@ -1,0 +1,87 @@
+/*
+Gray          #393939   rgb(57,57,57)
+Light Gray    #6E6E6E   rgb(110,110,110)
+*/
+
+/***** General *****/
+body{
+  font-family: 'Taviraj', serif;
+  font-size: 0.85em;
+  color: #393939;
+  margin: 5% 10%;
+  padding: 2%;
+  border: solid 0.5px rgba(0,0,0,.2);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+form{
+  text-align: center;
+  /*border: solid 1px purple;*/
+}
+legend{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #91cc04;
+  text-align: center;
+  margin: 2%;
+  padding: 0 1%;
+  /*border: solid 1px purple;*/
+}
+p{
+  font-size: 0.8em;
+  text-align: center;
+}
+span{
+  font-weight: bold;
+  color: #e32;
+}
+fieldset{
+  padding: 0 2% 2% 3%;
+  text-align: left;
+  border: none 0 rgba(0,0,0,.9);
+  /*border: solid 1px purple;*/
+}
+label{
+  padding-left: 2%;
+}
+input {
+  font-size: 0.9em;
+  width: 90%;
+  padding: 1% 2%;
+}
+textarea {
+  font-family: 'Taviraj', serif;
+  width: 90%;
+  padding: 1% 2%;
+  resize: none;
+  overflow: auto;
+}
+
+.btnForm{
+  margin: 0 auto;
+  font-size: 1.2em;
+  width: 20%;
+  background-color: #91cc04;
+  color: white;
+  padding: 1% 5%;
+  /*margin: 2%;*/
+  border: none;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+  /*border: solid 1px purple;*/
+}
+
+.required {
+    font-weight: bold;
+}
+.required:after {
+    color: #e32;
+    content: ' *';
+    /*display:inline;*/
+}

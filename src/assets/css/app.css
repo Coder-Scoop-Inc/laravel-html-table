@@ -1,0 +1,22 @@
+/*
+Gray          #393939   rgb(57,57,57)
+Light Gray    #6E6E6E   rgb(110,110,110)
+*/
+
+/***** General *****/
+body{
+  /*font-family: 'Taviraj', serif;*/
+  font-size: 0.85em;
+  color: #393939;
+  margin: 5% 10%;
+  padding: 2%;
+  border: solid 0.5px rgba(0,0,0,.2);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#laravel.table_responsive table{
+  border: solid 0.5px green;
+}
